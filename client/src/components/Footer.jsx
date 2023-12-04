@@ -1,8 +1,7 @@
-
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} Your Portfolio Footer</p>
+      <p>&copy; {new Date().getFullYear()} Nancy's Portfolio </p>
     </footer>
   );
 };

@@ -4,10 +4,13 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Layout from './components/Layout';
+import "./App.css";
+
 
 function App() {
   return (
-    <>
+    <Layout> {/* Place the Layout component here */}
       <NavTabs /> {/* This is your Navbar or Navigation Component */}
       <Routes>
         <Route path="/about" element={<About />} />
@@ -17,7 +20,7 @@ function App() {
         {/* Aboutme default*/}
         <Route path="/" element={<About />} />
       </Routes>
-    </>
+    </Layout>
   );
 }
 

@@ -1,7 +1,12 @@
+import headerImage from '../image/nrheader.png'; 
+import '../App.css';
+
 const Header = () => {
-    return (
-        <p>Nancy</p>
-    );
-  };
-  
-  export default Header;
+  return (
+    <header>
+      <img src={headerImage} alt="Header" /> 
+    </header>
+  );
+};
+
+export default Header;

@@ -1,23 +1,64 @@
+import Auctionator from "../image/auctionator.png";
+import Quizard from '../image/quizard.png';
+import Password from '../image/passwordgen.png';
+import Notes from "../image/notesapp.png";
+import Temperature from "../image/climateapp.png";
+import Book from "../image/bookquesters.png";
+
+
 export default function Portfolio() {
     return (
-      <div>
-        <h1>Portfolio Page</h1>
-        <p>
-          Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-          Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-          dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-          sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-          sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-          vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-          libero. Class aptent taciti sociosqu ad litora torquent per conubia
-          nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-          lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-          in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-          bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-          est ligula suscipit velit, sed bibendum turpis dui in sapien.
-        </p>
+      <div className="work-container-wrapper"> 
+
+      <div className="work-container">
+      <img src={Auctionator} className="work-image" alt="Work" />
+      <div className="work-card-body">
+        <h5 className="work-card-title"> Auctionator </h5>
+        <a href="https://auctionator-12c2490092de.herokuapp.com/" class="visit-button">Visit Site</a>
       </div>
+    </div>
+
+    <div className="work-container">
+      <img src={Quizard} className="work-image" alt="Work" />
+      <div className="work-card-body">
+        <h5 className="work-card-title"> Quizard </h5>
+        <a href="https://nramirez686.github.io/Quizard/" class="visit-button">Visit Site</a>
+      </div>
+    </div>
+
+    <div className="work-container">
+      <img src={Password} className="work-image" alt="Work" />
+      <div className="work-card-body">
+        <h5 className="work-card-title"> Password Generator </h5>
+        <a href="https://nramirez686.github.io/LovelyLocks/" class="visit-button">Visit Site</a>
+      </div>
+    </div>
+
+    <div className="work-container">
+      <img src={Notes} className="work-image" alt="Work" />
+      <div className="work-card-body">
+        <h5 className="work-card-title"> Instant Notes! </h5>
+        <a href="https://morning-lowlands-51725-90c866be19e2.herokuapp.com/" class="visit-button">Visit Site</a>
+      </div>
+    </div>
+
+    <div className="work-container">
+      <img src={Temperature} className="work-image" alt="Work" />
+      <div className="work-card-body">
+        <h5 className="work-card-title"> Climate Caster </h5>
+        <a href="https://nramirez686.github.io/ClimateCaster/" class="visit-button">Visit Site</a>
+      </div>
+    </div>
+
+    <div className="work-container">
+      <img src={Book} className="work-image" alt="Work" />
+      <div className="work-card-body">
+        <h5 className="work-card-title"> BookQuesters </h5>
+        <a href="https://sillytsundere.github.io/bookquesters/" class="visit-button">Visit Site</a>
+      </div>
+    </div>
+
+    </div>
     );
   }
   
